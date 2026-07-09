@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Mosaic of Us | Workshops & Categories</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="assets/logo.png">
+</head>
+
+<body>
+    <div class="scroll-progress" aria-hidden="true"></div>
+
+    <div class="page-loader"></div>
+
+    <!-- 1. FIXED NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo" aria-label="The Mosaic of Us home">
+                <img src="assets/logo.png" class="logo-img" alt="The Mosaic of Us Logo">
+                <span class="logo-text">THE MOSAIC OF US</span>
+            </a>
+
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">HOME</a>
+                <a href="workshops.html" class="nav-link active">WORKSHOPS</a>
+                <a href="about.html" class="nav-link">ABOUT</a>
+                <a href="team.html" class="nav-link">TEAM</a>
+                <a href="register.html" class="nav-link">REGISTER</a>
+                <a href="contact.html" class="nav-link">CONTACT</a>
+            </div>
+
+            <button class="hamburger" aria-label="Menu" aria-expanded="false" aria-controls="mobile-menu">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-nav-links">
+            <a href="index.html" class="mobile-nav-link">HOME</a>
+            <a href="workshops.html" class="mobile-nav-link">WORKSHOPS</a>
+            <a href="about.html" class="mobile-nav-link">ABOUT</a>
+            <a href="team.html" class="mobile-nav-link">TEAM</a>
+            <a href="register.html" class="mobile-nav-link">REGISTER</a>
+            <a href="contact.html" class="mobile-nav-link">CONTACT</a>
+        </div>
+    </div>
+
+    <!-- 2. WORKSHOPS HERO -->
+    <section class="hero workshops-hero">
+        <div class="hero-content">
+            <div class="hero-eyebrow fade-up">FIFTEEN FRAGMENTS OF EXPRESSION</div>
+            <h1 class="hero-heading">
+                <div class="line-wrap">
+                    <div class="line">Artistic categories</div>
+                </div>
+                <div class="line-wrap">
+                    <div class="line">and medium galleries.</div>
+                </div>
+            </h1>
+            <p class="hero-body fade-up">
+                Discover the diverse forms of creativity that assemble to create the shared narrative of our student-led exhibition.
+            </p>
+        </div>
+        <div class="scroll-indicator fade-up">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. ATELIERS GRID -->
+    <section class="ateliers">
+        <div class="section-header fade-up-scroll">
+            <h2 class="section-title">The Art Mediums</h2>
+            <p class="section-subtitle">A presentation of fifteen individual categories, each with its unique voice.</p>
+        </div>
+
+        <div class="ateliers-grid">
+            <!-- I. Doodling -->
+            <div class="atelier-card stagger-card">
+                <div class="card-number">I</div>
+                <h3 class="card-title">Doodling</h3>
+                <p class="card-desc">An unfiltered flow of lines and shapes, where instinct guides the hand and imagination wanders freely, turning simple strokes into unexpected expressions of creativity.</p>
+                <div class="card-border"></div>
+            </div>
+
+            <!-- II. Photography -->
+            <div class="atelier-card stagger-card">
+                <div class="card-number">II</div>
+                <h3 class="card-title">Photography</h3>
+                <p class="card-desc">Each picture carrying an unspoken story, where time stands still and every frame reveals something we might have otherwise missed.</p>
+                <div class="card-border"></div>
+            </div>
+
+            <!-- III. Canvas -->
+            <div class="atelier-card stagger-card">
+                <div class="card-number">III</div>
+                <h3 class="card-title">Canvas</h3>
+                <p class="card-desc">Each canvas becoming a world of its own, where color, depth, and emotion blend into something that speaks without words.</p>
+                <div class="card-border"></div>
+            </div>
+
+            <!-- IV. Poetry -->
+            <div class="atelier-card stagger-card">
+                <div class="card-number">IV</div>
+                <h3 class="card-title">Poetry</h3>
+                <p class="card-desc">An intimate blend of thought and feeling, where words become a space to release, reflect, and make sense of what feels too heavy or too complex to hold inside.</p>
+                <div class="card-border"></div>
+            </div>
+
+            <!-- V. Abstract Art -->
+            <div class="atelier-card stagger-card">
+                <div class="card-number">V</div>
+                <h3 class="card-title">Abstract Art</h3>
+                <p class="card-desc">Where expression exists without boundaries, using shape, color, and movement to evoke feeling rather than define it.</p>
+                <div class="card-border"></div>
+            </div>
+
+            <!-- VI. Sculpture -->
+            <div class="atelier-card stagger-card">
+                <div class="card-number">VI</div>
+                <h3 class="card-title">Sculpture</h3>
+                <p class="card-desc">A process of shaping and reshaping, where ideas move beyond thought and turn into something that occupies space, and invites perspective.</p>
+                <div class="card-border"></div>
+            </div>
+
+            <!-- VII. Pencil Sketch -->
+            <div class="atelier-card stagger-card">
+                <div class="card-number">VII</div>
+                <h3 class="card-title">Pencil Sketch</h3>
+                <p class="card-desc">A space of graphite and quiet focus, where every line grows from observation, building depth, texture, and a sense of lived detail.</p>
+                <div class="card-border"></div>
+            </div>
+
+            <!-- VIII. Pen Sketch -->
+            <div class="atelier-card stagger-card">
+                <div class="card-number">VIII</div>
+                <h3 class="card-title">Pen Sketch</h3>
+                <p class="card-desc">A raw interplay of ink and control, where each stroke is deliberate, forming precise detail and honest expression, without the comfort of correction.</p>
+                <div class="card-border"></div>
+            </div>
+
+            <!-- IX. Watercolour -->
+            <div class="atelier-card stagger-card">
+                <div class="card-number">IX</div>
+                <h3 class="card-title">Watercolour</h3>
+                <p class="card-desc">A fluid dance of water and pigment, where colours blend, bleed, and flow freely, creating soft layers of emotion and light.</p>
+                <div class="card-border"></div>
+            </div>
+
+            <!-- X. Origami -->
+            <div class="atelier-card stagger-card">
+                <div class="card-number">X</div>
+                <h3 class="card-title">Origami</h3>
+                <p class="card-desc">Started from a flat sheet and somehow became something you didn’t see coming. No shortcuts, just folds and patience and a quiet kind of faith in the process.</p>
+                <div class="card-border"></div>
+            </div>
+
+            <!-- XI. Mixed Media -->
+            <div class="atelier-card stagger-card">
+                <div class="card-number">XI</div>
+                <h3 class="card-title">Mixed Media</h3>
+                <p class="card-desc">Too much feeling to stay in one lane. Paint meets fabric meets found objects meets everything in between. Pieces made by people who have too much to say for one medium.</p>
+                <div class="card-border"></div>
+            </div>
+
+            <!-- XII. Texture Art -->
+            <div class="atelier-card stagger-card">
+                <div class="card-number">XII</div>
+                <h3 class="card-title">Texture Art</h3>
+                <p class="card-desc">It’s not just what you see, it’s what you almost feel. Every surface here has lived, rough in some places, tender in others, layered in ways you notice slowly.</p>
+                <div class="card-border"></div>
+            </div>
+
+            <!-- XIII. Folk Art -->
+            <div class="atelier-card stagger-card">
+                <div class="card-number">XIII</div>
+                <h3 class="card-title">Folk Art</h3>
+                <p class="card-desc">Arts never meant to be kept behind glass. Mandala, Warli, Madhubani carried across generations, made for doorways and festivals and the walls of homes that held whole families.</p>
+                <div class="card-border"></div>
+            </div>
+
+            <!-- XIV. Digital Art -->
+            <div class="atelier-card stagger-card">
+                <div class="card-number">XIV</div>
+                <h3 class="card-title">Digital Art</h3>
+                <p class="card-desc">Made on a screen but felt like everything else. Wondering how something built in pixels can hit this hard. It’s a new language and the artists here are already fluent.</p>
+                <div class="card-border"></div>
+            </div>
+
+            <!-- XV. Printmaking -->
+            <div class="atelier-card stagger-card">
+                <div class="card-number">XV</div>
+                <h3 class="card-title">Printmaking</h3>
+                <p class="card-desc">Every print came from pressure, from ink and intention pressed into something that holds the mark long after the hand has moved on. A rhythm repeated and deliberate.</p>
+                <div class="card-border"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. FOOTER -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <div class="footer-logo">THE MOSAIC OF US</div>
+                <p class="footer-tagline">A student-led exhibition of individuality, imagination, and connection.</p>
+            </div>
+
+            <div class="footer-nav">
+                <h4 class="footer-title">Navigation</h4>
+                <a href="index.html">Home</a>
+                <a href="workshops.html">Workshops</a>
+                <a href="about.html">About</a>
+                <a href="team.html">Team</a>
+                <a href="register.html">Register</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <div class="footer-contact">
+                <h4 class="footer-title">Contact</h4>
+                <a href="mailto:arrive@themosaicofus.com">arrive@themosaicofus.com</a>
+                <a href="#">Instagram</a>
+            </div>
+
+            <div class="footer-quote">
+                <blockquote>"We are all a mosaic of our experiences."</blockquote>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 The Mosaic of Us. All rights reserved.</p>
+            <div class="footer-legal">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <!-- Lenis smooth scroll -->
+    <script src="https://unpkg.com/lenis@1.1.14/dist/lenis.min.js"></script>
+
+    <!-- JS -->
+    <script src="main.js"></script>
+</body>
+
+</html>
